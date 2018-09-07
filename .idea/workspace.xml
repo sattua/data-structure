@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dc68ca-b00c-4f96-9d87-003fc52090e0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NodeFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="462">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,7 +29,7 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="570">
               <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/NodeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -154,11 +151,12 @@
       <updated>1533842453975</updated>
       <workItem from="1533842455488" duration="1552000" />
       <workItem from="1534010590907" duration="4573000" />
+      <workItem from="1536281303446" duration="664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6125000" />
+    <option name="totallyTimeSpent" value="6789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -178,7 +176,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -205,12 +203,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>32</line>
+          <line>39</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>30</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -219,6 +217,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NodeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -249,13 +274,13 @@
     <entry file="file://$PROJECT_DIR$/src/NodeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="570">
           <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -265,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="462">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

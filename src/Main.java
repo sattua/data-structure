@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -7,16 +8,16 @@ public class Main {
         Scanner scnner = new Scanner(System.in);
         System.out.println("Graph Data Structure!");
         String entry = "";
-        final Node primo= new Node("A", null, "Primer Nodo");
+        final Node root= new Node("A", null, "Primer Nodo");
 
-        List<Node> children = NodeFactory.createNodes(primo, "Primos",4);
+        List<Node> children = new ArrayList<>();
 
 
         while(!entry.equals("bye")) {
             System.out.println("Type any of the following commands:");
             printBlanks(2, true);
             System.out.println(" -Type (1) if you want to view the structure.");
-            System.out.println(" -Type (2) Add new node to structure.");
+            System.out.println(" -Type (2) Add new node to structure. (binary tree):");
             System.out.println(" -Type (bye) if you want stop this program..");
             entry = scnner.nextLine();
 
@@ -24,15 +25,29 @@ public class Main {
             if (entry.equals("1")) {
                 printBlanks(3, true);
 
-                children = primo.getEgdes();
-                Integer identation = (children.size() / 2) + 100;
+                children = root.getEgdes();
+                Integer identation;
+                if () {
+                    identation = (children.size() / 2) + 100;
+                } else {
+                    identation = 0;
+                }
+
 
 
                 printBlanks(identation, false);
                 for (int i =0; i < children.size(); i++) {
 
                     System.out.println(children.get(i).getRichId(getBlanks(identation, false)));
-                    identation = identation - 15;
+                    identation = identation - 1;
+                }
+            }
+            if (entry.equals("2")) {
+                System.out.println(" -what to add an ID? (optional)");
+                entry = scnner.nextLine();
+
+                if (!entry.equals("")) {
+                    children.add(new Node());
                 }
             }
 
