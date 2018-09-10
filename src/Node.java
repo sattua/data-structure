@@ -5,6 +5,8 @@ public class Node {
     String id;
     String value;
     Node parentNode;
+    Node leftNode;
+    Node rightNode;
     List<Node> egdes;
 
     public Node() {
@@ -35,12 +37,8 @@ public class Node {
 
     public String toString() {
 
-        return "id:" + this.id + ", value: " + this.getValue();
+        return "[ id: " + this.id + " ]";
     }
-
-    public List<Node> getEgdes() { return egdes; }
-
-    public void setEgdes(List<Node> egdes) { this.egdes = egdes; }
 
     public String getId() { return id; }
 
@@ -50,12 +48,19 @@ public class Node {
 
     public void setId(String id) { this.id = id; }
 
-    public void addChild(Node node) {
-        if (this.egdes != null && this.egdes.size() > 0) {
-            this.egdes.add(node);
-        } else {
-            this.egdes = new ArrayList<>();
-            egdes.add(node);
-        }
+    public Node getLeftNode() {
+        return leftNode;
+    }
+
+    public void setLeftNode(Node leftNode) {
+        this.leftNode = leftNode;
+    }
+
+    public Node getRightNode() {
+        return rightNode;
+    }
+
+    public void setRightNode(Node rightNode) {
+        this.rightNode = rightNode;
     }
 }
